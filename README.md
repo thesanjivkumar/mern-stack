@@ -3,10 +3,11 @@
 ## How to start app
 ### node folder
 ### step 1 - npm install
-### step 2 - create .env file and paste the code and add your details in ( .env ) file 
 ### step 3 - enable less secure apps
+### step 2 - create .env file and paste the code and add your details in ( .env ) file 
+
   
-DB_CONNECTION = mongodb://sanjiv21:youpassword@cluster0-shard-00-00.jhslc.mongodb.net:27017,cluster0-shard-00-01.jhslc.mongodb.net:27017,cluster0-shard-00-02.jhslc.mongodb.net:27017/databasename?ssl=true&replicaSet=atlas-ni50bc-shard-0&authSource=admin&retryWrites=true&w=majority
+DB_CONNECTION = mongodb://yourid:youpassword@cluster0-shard-00-00.jhslc.mongodb.net:27017,cluster0-shard-00-01.jhslc.mongodb.net:27017,cluster0-shard-00-02.jhslc.mongodb.net:27017/yourdatabasename?ssl=true&replicaSet=atlas-ni50bc-shard-0&authSource=admin&retryWrites=true&w=majority
 TOKEN_SECRET = abc123xyz
 
 
